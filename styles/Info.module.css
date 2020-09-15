@@ -1,0 +1,50 @@
+.fluid__container {
+  max-width: 1500px;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+.fluid__small__container {
+  max-width: 800px;
+  margin: 70px auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 20px;
+  letter-spacing: 0.25em;
+  margin-top: 160px;
+  margin-bottom: 50px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-family: 'Kufam', cursive;
+}
+
+.title__line {
+  background-color: green;
+  margin: 20px auto;
+  width: 60px;
+  height: 2px;
+  border: 0;
+}
+
+.fluid__small__container p {
+  font-size: 14px;
+  line-height: 26px;
+  margin: 0 0 40px;
+}
+
+.fluid__small__container h3 {
+  letter-spacing: normal;
+  line-height: 25px;
+  font-size: 14px;
+  margin: 0 0 40px;
+}
+
+.Map__container {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}

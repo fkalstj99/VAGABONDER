@@ -1,0 +1,38 @@
+.SearchNav {
+  border-bottom: 2px solid rgb(226, 224, 224);
+  display: flex;
+  justify-content: space-between;
+}
+
+.SearchNav__titles {
+  display: flex;
+  margin: 20px 0 15px 20px;
+  cursor: pointer;
+  width: 160px;
+  font-family: 'Kufam', cursive;
+}
+
+.SearchNav__titles img {
+  width: 30px;
+  margin-right: 4px;
+}
+
+.SearchNav__titles h1 {
+  letter-spacing: 0.1rem;
+  margin-top: 3px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 760px) {
+  .SearchNav {
+    border-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .SearchNav {
+    border-bottom: 0;
+    justify-content: space-between;
+  }
+}

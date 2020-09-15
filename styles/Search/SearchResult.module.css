@@ -1,0 +1,57 @@
+.result__container {
+  border-bottom: 1px solid rgba(196, 195, 195, 0.466);
+  display: flex;
+  padding: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.result__img {
+  width: 180px;
+  margin-right: 20px;
+  height: 130px;
+}
+
+.result__container h1 {
+  font-size: 17px;
+}
+
+.address {
+  font-size: 11px !important;
+}
+
+.main__container {
+  display: flex;
+}
+
+.sub__container {
+  display: flex;
+  margin-top: 40px;
+}
+
+.description {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  .sub__container {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sub__container {
+    margin-top: 10px;
+  }
+  .description {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .result__container h1 {
+    font-size: 13px;
+  }
+  .result__container {
+    display: block;
+  }
+}

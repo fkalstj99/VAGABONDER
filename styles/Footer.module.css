@@ -1,0 +1,27 @@
+.main__content {
+  display: flex;
+}
+
+.main__content div {
+  flex-basis: 50%;
+}
+
+.content span {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  .main__content {
+    display: block;
+
+    text-align: center;
+  }
+
+  .content {
+    padding: 20px 0 20px 0;
+  }
+
+  .main__content div {
+    margin-bottom: 40px;
+  }
+}

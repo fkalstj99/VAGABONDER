@@ -1,0 +1,120 @@
+.main {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main__content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.main__content__title {
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 5px;
+}
+
+.main p {
+  color: black;
+  letter-spacing: normal;
+  line-height: 25px;
+  font-size: 14px;
+  margin: 0 0 20px;
+}
+
+.press img {
+  vertical-align: middle;
+  object-fit: contain;
+}
+
+.row__fluid {
+  background-size: cover;
+  height: 400px;
+  background-position: center center;
+}
+
+.image__block {
+  border-bottom: 2px solid white;
+}
+
+.text__shadow {
+  text-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+.center__contents button {
+  padding: 15px 30px 15px 30px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  transition: all 0.5s;
+  outline: none;
+  font-size: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
+  letter-spacing: 0.1rem;
+}
+
+.center__contents button:hover {
+  background-color: white;
+  box-shadow: #fc0 3px 0 15px;
+  color: black;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.center__contents {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.2rem;
+  color: white;
+  text-align: center;
+  text-shadow: #fc0 3px 0 15px;
+  padding: 60px 0 60px 0;
+}
+
+.center__contents h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.buffer__content__table {
+  text-align: center;
+  height: 400px;
+}
+.buffer__content__table h2 {
+  font-size: 17px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+}
+
+.googleMap {
+  height: 600px;
+  width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .row__fluid {
+    height: 300px;
+  }
+  .cetner__contents {
+    padding: 50px 0 30px 0;
+  }
+
+  .center__contents button {
+    padding: 15px 30px 15px 30px;
+    margin-top: 20px;
+  }
+
+  .center__contents h2 {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+  .center__contents h3 {
+    font-size: 0.7rem;
+  }
+  .googleMap {
+    height: 300px;
+  }
+}

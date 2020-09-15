@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&family=Raleway:wght@200;300&display=swap');
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.fa-bars {
+  display: none;
+  float: right;
+  cursor: pointer;
+}
+
+.fa-bars:hover {
+  opacity: 0.6;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding: 85px;
+  line-height: 18px;
+}
+
+footer p {
+  color: white;
+  letter-spacing: 0.3rem;
+}
+
+footer h2 {
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+
+footer span {
+  color: rgb(153, 152, 152);
+  letter-spacing: 0.15rem;
+  font-size: 12px;
+}
+
+footer input {
+  background-color: transparent;
+  color: white;
+  font-size: 17px;
+  border: 1.5px solid rgb(153, 152, 152);
+  width: 90%;
+  height: 40px;
+}
+
+#click:checked ~ ul {
+  left: 0%;
+}
+
+#click2:checked ~ ul {
+  left: 0%;
+}
+
+.active {
+  border-bottom: 4px solid black;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  footer {
+    padding: 80px 20px 80px 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .fa-bars {
+    display: block;
+    float: right;
+    margin: 20px 30px 0px 0px;
+    height: 40px;
+    color: black;
+  }
+
+  footer {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  footer {
+    padding: 50px 10px 10px 10px;
+  }
+}

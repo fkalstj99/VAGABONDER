@@ -1,0 +1,141 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Kufam', cursive;
+}
+
+.banner__title__container {
+  text-align: center;
+}
+
+.banner__title {
+  color: white;
+  font-size: 5rem;
+  letter-spacing: 1rem;
+  text-shadow: #fc0 4px 0px 15px;
+}
+
+.title__animation__one {
+  animation: animate 0.5s ease-in;
+}
+
+.title__animation__two {
+  animation: animate 1s ease-in;
+}
+
+.title__animation__two::before {
+  content: 'B';
+  animation: glowing 1.7s linear infinite;
+}
+
+@keyframes glowing {
+  0% {
+    text-shadow: none;
+  }
+
+  18% {
+    text-shadow: #fc0 4px 7px 15px;
+  }
+
+  20% {
+    text-shadow: none;
+  }
+  30% {
+    text-shadow: #fc0 4px 7px 15px;
+  }
+  70% {
+    text-shadow: none;
+  }
+  85% {
+    text-shadow: #fc0 4px 7px 15px;
+  }
+  90% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.banner__link {
+  text-decoration: none;
+  font-size: 2rem;
+}
+.btn {
+  border: 2px solid white;
+  padding: 2rem 6rem 2rem 6rem;
+
+  transition: border-radius 300ms ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  box-shadow: #fc0 3px 0 15px;
+  color: black;
+  border-radius: 30px;
+}
+
+.banner__link {
+  color: white;
+  font-size: 0.8rem;
+  letter-spacing: 0.2rem;
+  animation: animate 1.6s ease-in;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .banner__title {
+    font-size: 4rem;
+    letter-spacing: 0.7rem;
+  }
+
+  .btn {
+    padding: 1rem 3.5rem 1rem 3.5rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .banner__title {
+    font-size: 2.5rem;
+    letter-spacing: 0.6rem;
+  }
+
+  .btn {
+    padding: 1rem 6rem 1rem 6rem;
+  }
+  .banner__link {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .banner__title {
+    font-size: 2.5rem;
+    letter-spacing: 0.6rem;
+  }
+
+  .btn {
+    padding: 1rem 3rem 1rem 3rem;
+  }
+  .banner__link {
+    font-size: 0.8rem;
+  }
+
+  .fa-long-arrow-down {
+    color: white;
+    margin-top: 150px;
+    text-shadow: #fc0 4px 7px 15px;
+  }
+}
